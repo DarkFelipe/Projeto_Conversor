@@ -1,18 +1,22 @@
-## Getting Started
+# Projeto_Conversor
+> :construction: Projeto de estudo em construção :construction:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+<br>
 
-## Folder Structure
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+História:
+Nesta oportunidade foi solicitado para nós Devs a criação de um conversor de moeda utilizando a linguagem Java. As características solicitadas por nosso cliente são as seguintes:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+O conversor de moeda deverá:- Converter de Reais a Dólar- Converter de Reais a Euro- Converter de Reais a Libras Esterlinas- Converter de Reais a Peso argentino- Converter de Reais a Peso Chileno
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Lembrando que deve ser possível também converter de forma inversa ou seja:
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```
+        - Converter de Dólar a Reais
+        - Converter de Euro a Reais
+        - Converter de Libras Esterlinas a Reais
+        - Converter de Peso argentino a  Reais
+        - Converter de Peso Chileno a Reais
+```
