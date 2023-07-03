@@ -24,32 +24,7 @@ public class TestaSoftware {
             System.out.println("foi escolhido o conversor de unidades de comprimento");
         }
 
-                
         
-        /*try {
-            String insiraValor = JOptionPane.showInputDialog(null, "Insira um valor", "Valor", 3);
-            double valor = Double.parseDouble(insiraValor);
-            //criei uma caixa de diálogo para o usuário inserir um valor. 
-           //Tenho que pegar esse valor e converter para double e armezanar em outra variável
-            
-        } catch (Exception e) {
-            JOptionPane.showMessageDialog(null, "Insira somente números", "Erro", 0);
-                   
-        } // fiz o tratamento de exceções, porém preciso voltar para a parte inicial do valor, não seguir em frente. */
-
-        
-        
-        
-
-
-        
-
-
-
-
-
-
-
 
 
     }
