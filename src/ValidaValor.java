@@ -2,11 +2,12 @@ import javax.swing.JOptionPane;
 
 public class ValidaValor {
 
-    String insiraValor = JOptionPane.showInputDialog(null, "Insira um valor", "Valor", 3);
+    
 
-    public boolean validarValor(String insiraValor){
+    public boolean validarValor(){
         
         //double valor = Double.parseDouble(insiraValor);
+        String insiraValor = JOptionPane.showInputDialog(null, "Insira um valor", "Valor", 3);
 
         try {
             Double.parseDouble(insiraValor);

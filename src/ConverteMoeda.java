@@ -12,7 +12,10 @@ public class ConverteMoeda {
 
         Object moedaSelecionada = JOptionPane.showInputDialog(null, "Escolha uma opção", "Input",
         JOptionPane.INFORMATION_MESSAGE, null,opcoesMoedas, opcoesMoedas[0]);
-        //Criei uma caixa de diálogo para o usuário escolher a opção   
+        //Criei uma caixa de diálogo para o usuário escolher a opção 
+        
+        ValidaValor valida = new ValidaValor();
+        valida.validarValor();
     
     }
 

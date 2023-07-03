@@ -12,15 +12,19 @@ public class TestaSoftware {
         //Criei uma caixa de diálogo para o usuário escolher a opção
         if (conversorSelecionado.equals("Conversor de Moeda")) {
             System.out.println("Foi escolhido o conversor de moeda");
-            //chama a função de converter moeda aqui
+            ConverteMoeda conversorMoeda = new ConverteMoeda();
+            conversorMoeda.escolherMoeda();
+            conversorMoeda.continuar();
         } else if(conversorSelecionado.equals("Conversor de Temperatura")){
             System.out.println("Foi escolhido o conversor de temperatura");
+            ConverteTemperatura conversorTemperatura = new ConverteTemperatura();
+            conversorTemperatura.escolherTemperatura();
+            conversorTemperatura.continuar();
         }else{
             System.out.println("foi escolhido o conversor de unidades de comprimento");
         }
 
-        ValidaValor valida = new ValidaValor();
-        valida.validarValor(null);          
+                
         
         /*try {
             String insiraValor = JOptionPane.showInputDialog(null, "Insira um valor", "Valor", 3);
@@ -33,9 +37,7 @@ public class TestaSoftware {
                    
         } // fiz o tratamento de exceções, porém preciso voltar para a parte inicial do valor, não seguir em frente. */
 
-        ConverteMoeda conversorMoeda = new ConverteMoeda();
-        conversorMoeda.escolherMoeda();
-        conversorMoeda.continuar();
+        
         
         
 
