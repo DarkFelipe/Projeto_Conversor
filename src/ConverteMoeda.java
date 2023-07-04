@@ -1,10 +1,9 @@
-import javax.sound.sampled.SourceDataLine;
 import javax.swing.JOptionPane;
 
 public class ConverteMoeda {
     
     public void escolherMoeda(){
-        Object[] opcoesMoedas = { "De Reais a Dólares","De Reais a Euros", "De Reais a Libras", "De Reais a peso Argentino", 
+        Object[] opcoesMoedas = { "De Reais a Dólares","De Reais a Euros", "De Reais a Libras", "De Reais a Peso Argentino", 
         "De Reais a Peso Chileno", "De Dólares a Reais","De Euros a Reais","De Libras a Reais", 
         "De Peso Argentino a Reais", "De Peso Chileno a Reais"};
         //criei as opções de moedas.
