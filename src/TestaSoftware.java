@@ -11,17 +11,16 @@ public class TestaSoftware {
         JOptionPane.INFORMATION_MESSAGE, null,opcoesDeConversao, opcoesDeConversao[0]);
         //Criei uma caixa de diálogo para o usuário escolher a opção
         if (conversorSelecionado.equals("Conversor de Moeda")) {
-            System.out.println("Foi escolhido o conversor de moeda");
             ConverteMoeda conversorMoeda = new ConverteMoeda();
             conversorMoeda.escolherMoeda();
             conversorMoeda.continuar();
         } else if(conversorSelecionado.equals("Conversor de Temperatura")){
-            System.out.println("Foi escolhido o conversor de temperatura");
             ConverteTemperatura conversorTemperatura = new ConverteTemperatura();
             conversorTemperatura.escolherTemperatura();
             conversorTemperatura.continuar();
         }else{
-            System.out.println("foi escolhido o conversor de unidades de comprimento");
+            ConverteMetros conversorMetros = new ConverteMetros();
+            
         }
 
         

@@ -1,5 +1,6 @@
 import javax.swing.JOptionPane;
-
+//Foi pensando em converter apenas Celsius para as duas abaixo, pois estmaos no Brasil. 
+//Caso necessário, podemos fazer a conversão reversa.
 public class ConverteTemperatura {
     
     public void escolherTemperatura(){
@@ -10,6 +11,17 @@ public class ConverteTemperatura {
 
         ValidaValor valida = new ValidaValor();
         valida.validarValor();
+
+        if(temperaturaSelecionada == "Celsius para Kelvin"){
+            Double celsiusKelvin = valida.getValor() + 273.0;
+            Object valorConvertido = Double.toString(celsiusKelvin);
+            JOptionPane.showMessageDialog(null, valorConvertido + " Kelvin(s)");
+                    
+        } else{
+            double celsiusFahrenheit = (valida.getValor()*1.8) + 32;
+            Object valorConvertido2 = Double.toString(celsiusFahrenheit);
+            JOptionPane.showMessageDialog(null, valorConvertido2 + " Fahrenheit(s)");
+        }
     }
 
     public boolean continuar(){
