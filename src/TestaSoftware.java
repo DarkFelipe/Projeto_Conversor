@@ -20,6 +20,8 @@ public class TestaSoftware {
             conversorTemperatura.continuar();
         }else{
             ConverteMetros conversorMetros = new ConverteMetros();
+            conversorMetros.escolherUnidade();
+            conversorMetros.continuar();
             
         }
 
