@@ -4,7 +4,6 @@
 Projeto sugerido no curso de especialização em back-end da Oracle em conjunto com a Alura. <br>
 Foi pedido que se fosse feito um conversor de moedas. Além do conversor de moedas, foi construído um conversor de temperatura e de unidade de medidad e comprimento.
 <br>
-<br>
 ## **FUNCIONALIDADES DO PROJETO**
 1. Converte a moeda Real em Dólar, Libras, Euro, Peso Argentino e Peso Chileno;
 2. Realiza também a conversão inversa das moedas;
